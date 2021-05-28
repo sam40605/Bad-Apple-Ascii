@@ -94,7 +94,7 @@ class Video:
         print('\nSpend :' , int((end-start) // 60) , 'm' , int((end-start) % 60) , 's')
         self.capture.release()
 
-    # \Generate Ascii Video !!! The video is video only
+    # Generate Ascii Video !!! The video is video only !!!
     def Generate_Ascii_Video(self):
         # Set resolution 1440 * 1080
         width , height = 1440 , 1080
