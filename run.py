@@ -126,7 +126,7 @@ class Video:
     # Put on Ascii
     def put_char(self , img , index):
         # I have no idea how to make it better 
-        # Please tell if we have any idea
+        # Please tell if you have any idea
         # How can I put the ASCII on the img ????
 
         text = self.Frame_LIST[index]
