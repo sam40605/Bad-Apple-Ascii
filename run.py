@@ -158,10 +158,10 @@ def Generate_Ascii_Video():
     source = Source()
     video  = Video(source)
 
-    cursor.hide() # 隱藏游標
+    cursor.hide() # Hide Cursor 【 Looks Better :) 】
     video.Extract_Frames()
     video.Generate_Ascii_Video()
-    cursor.show() # 顯示回來
+    cursor.show() # Show Cursor
 
 # Choose Mode
 def main():
