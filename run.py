@@ -81,7 +81,7 @@ class Video:
             # Turn each frame to ASCII_Frame Object
             frame = Ascii_Frame(current_frame , frame , self.source)
 
-            # Appen ASCII_Frame.text to Frame_List
+            # Append ASCII_Frame.text to Frame_List
             self.Frame_LIST.append(frame.text)
 
             # Show the progress
