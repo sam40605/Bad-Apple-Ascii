@@ -42,8 +42,8 @@ class Ascii_Frame:
     def Frame_To_Ascii(self , frame):
         #Since we don't wnat the edge , so we start from 1 to end - 1
         characters = ''
-        for j in range(1 , 62 - 1):     # Up    to Down : Height
-            for i in range(1 , 92 - 1): # Right to Left : Width
+        for j in range(1 , 62 - 1):     # Up   to Down : Height
+            for i in range(1 , 92 - 1): # Left to Right : Width
                 pixel = frame[j][i]
                 # Map each pixel to a certain ASCII_CODE
                 characters += self.source.ASCII_Codes[pixel // 25]
